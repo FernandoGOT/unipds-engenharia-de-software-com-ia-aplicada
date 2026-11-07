@@ -1,0 +1,50 @@
+text
+# -------------------------------------------------------------------
+# System & OS Files (Never commit these)
+# -------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# -------------------------------------------------------------------
+# IDEs and Code Editors (Personal preferences)
+# -------------------------------------------------------------------
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# -------------------------------------------------------------------
+# Package Managers & Dependencies (Recreated via install commands)
+# -------------------------------------------------------------------
+node_modules/
+jspm_packages/
+web_modules/
+.pnp/
+.pnp.js
+
+# -------------------------------------------------------------------
+# Build Artifacts, Outputs & Caches
+# -------------------------------------------------------------------
+dist/
+build/
+out/
+target/
+*.log
+*.tmp
+*.bak
+.sass-cache/
+.eslintcache
+
+# -------------------------------------------------------------------
+# Environment Variables & Secrets (CRITICAL: Protect sensitive data)
+# -------------------------------------------------------------------
+.env
+.env.local
+.env.production
+.env.development
+*.pem
+*.key
